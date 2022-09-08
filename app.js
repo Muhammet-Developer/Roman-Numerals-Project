@@ -1,6 +1,6 @@
     const number= +prompt("Please enter a number up to 3000:");
     function roman(number){
-    if(number >= 3889) return alert("Your number cannot be greater than 3000");
+    if(number >= 3888) return alert("Your number cannot be greater than 3000");
     if(number < 1) return "";
     if(number >= 1000) {return "M" + roman(number - 1000);}
     if(number >= 500) {return "D" + roman(number - 500);}
